@@ -1,0 +1,37 @@
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+.cards {
+  width: 250px;
+  padding: 20px;
+}
+
+.cards:hover {
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.imagebox img {
+  width: 150px;
+  height: 200px;
+}
+
+.details button {
+  padding: 5px 10px;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  background-color: rgb(232, 182, 89);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details button:hover {
+  background-color: orange;
+}

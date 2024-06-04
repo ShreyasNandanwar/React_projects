@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "eol": "^0.9.1",
+    "prettier": "^3.3.0"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  }
+}
